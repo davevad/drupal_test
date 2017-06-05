@@ -1,0 +1,16 @@
+name = content feature
+description = a feature to share content information 
+core = 7.x
+package = Features
+dependencies[] = features
+dependencies[] = menu
+dependencies[] = text
+dependencies[] = uuid_features
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_instance][] = node-page-body
+features[menu_custom][] = main-menu
+features[menu_links][] = main-menu_home:<front>
+features[menu_links][] = main-menu_live-front-page:node/1
+features[node][] = page
+features[uuid_node][] = ce9ddcc7-73b7-4d77-9e0f-f0c76aa218cf
